@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-image: url('https://cdn.discordapp.com/attachments/879670039173816360/986635631495114842/unknown.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed; 
+              background-size: 100% 100%;
+            }
+            
+            </style>
+        <title>การใช้ form ใน html</title>
+    </head>
+
+    <body>
+        <h2>form in html</h2>
+        <form action="submit.html" method="post" autocomplete="off">
+            <label for="fname">ชื่อ : </label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">นามสกุล : </label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="class">ระดับชั้นที่เรียน</label>
+            <select id="class" name="class">
+                <option value="4">ม.4</option>
+                <option value="5">ม.5</option>
+                <option value="6">ม.6</option>
+
+            </select><br>
+            <textarea name="profile" rows="10" cols="20"></textarea><br>
+            <label for="username">ชื่อผู้ใช้งาน</label>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">ชื่อผู้ใช้งาน</label>
+            <input type="password" id="password" name="passwprd"><br>
+            <h4>เลือกที่ชอบ</h4>
+            <input type="radio" id="mama" name="fav_food" value="mama">
+            <label for="mama">มาม่า</label><br>
+            <input type="radio" id="tomyam" name="fav_food" value="tomyam">
+            <label for="tomyam">ต้มยำ</label><br>
+            <input type="radio" id="nisshin" name="fav_food" value="nisshin">
+            <label for="nisshin">นิชชิน</label><br>
+
+            <h4>วิชาที่ชอบ</h4>
+            <input type="checkbox" id="sci32100" name="sci32100" value="sci32100">
+            <label for="sci32100">ว32100</label><br>
+            <input type="checkbox" id="sci32101" name="sci32101" value="sci32101">
+            <label for="sci32101">ว32101</label><br>
+            <input type="checkbox" id="sci32102" name="sci32102" value="sci32102">
+            <label for="sci32102">ว32102</label><br>
+            
+            <label for="bd">วันเกิด</label>
+            <input type="date" id="bd" name="bd"><br>
+
+
+
+            <input type="submit" value="ตกลง">
+            <input type="reset" value="ยกเลิก">
+
+        </form>
+    </body>
+
+</html>

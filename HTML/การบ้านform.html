@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-image: url('https://cdn.discordapp.com/attachments/879670039173816360/986635631495114842/unknown.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed; 
+              background-size: 100% 100%;
+            }
+            
+            </style>
+        <title>พารากราฟใน HTML</title>
+    </head>
+
+    <body>
+        <h2>ประวัติส่วนตัว</h2>
+        <form action="submit.html" method="post" autocomplete="off">
+            <label for="fname">ชื่อ : </label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">นามสกุล : </label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="name">ชื่อเล่น</label>
+            <input type="text" id="nname" name="nname"><br>
+            <label for="class">ระดับชั้นที่เรียน</label>
+            
+            <select id="class" name="class">
+                <option value="1">ม.1</option>
+                <option value="2">ม.2</option>
+                <option value="3">ม.3</option>
+                <option value="4">ม.4</option>
+                <option value="5">ม.5</option>
+                <option value="6">ม.6</option>
+            </select><br>
+
+            <label for="bd">วัน/เดือน/ปี เกิด</label>
+            <input type="date" id="bd" name="bd"><br>
+
+            <label for="school">โรงเรียนที่ศึกษา</label>
+            <input type="text" id="school" name="school"><br>
+
+            <input type="submit" value="ตกลง">
+            <input type="reset" value="ยกเลิก">
+
+
+
+    </body>
+</html>
